@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "Gilroy Light ";
+  font-style: normal;
+  font-weight: normal;
+  src: local(Gilroylight), url("../fonts/web/gilroylight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: local(Gilroyextrabold), url("../fonts/web/gilroyextrabold.woff") format("woff");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #444444;
+  font-family: "Open Sans Light", Arial, sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-container {
+  position: relative;
+  width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  padding-top: 29px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 160px;
+  background-color: #ffe27f;
+}
+
+.header-logo {
+  position: absolute;
+  top: -18px;
+}
+
+.search {
+  position: relative;
+  width: 440px;
+  float: left;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.search::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: transparent url("../img/search.png") no-repeat;
+}
+
+.user-navigation {
+  float: right;
+  width: 500px;
+}
+
+.search input {
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 36px;
+  color: #000000;
+  opacity: 0.3;
+}
+
+ul.user-nav {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin-left: 25px;
+}
+
+ul.user-nav li {
+  width: 80px;
+}
+
+.user-nav a {
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.user-nav li:first-child {
+  position: relative;
+  float: left;
+  margin-right: 200px;
+}
+
+.user-nav li:nth-child(2) {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+}
+
+.user-nav li:nth-child(3) {
+  position: relative;
+  float: right;
+  text-align: right;
+}
+
+.user-nav li:first-child::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -25px;
+  width: 13px;
+  height: 12px;
+  background: transparent url("../img/user.png") no-repeat;
+}
+
+.user-nav li:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -19px;
+  width: 13px;
+  height: 12px;
+  background: transparent url("../img/user.png") no-repeat;
+  background-position: center;
+}
+
+.user-nav li:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -5px;
+  width: 13px;
+  height: 12px;
+  background: transparent url("../img/user.png") no-repeat;
+  background-position: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+.catalog {
+  position: relative;
+  float: left;
+  padding-top: 20px;
+}
+
+.catalog::after {
+  content: "";
+  position: absolute;
+  top: 28px;
+  right: -28px;
+  width: 16px;
+  height: 16px;
+  background: transparent url("../img/plus.png") no-repeat;
+}
+
+.main-navigation a {
+  font-family: "Gilroy ExtraBold";
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  color: #000000;
+}
+
+.navigation {
+  float: right;
+  width: 500px;
+}
+
+ul.main-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.main-nav li:first-child {
+  float: left;
+  margin-right: 35px;
+}
+
+.main-nav li:nth-child(2) {
+  float: left;
+}
+
+.main-nav li:nth-child(3) {
+  float: right;
+  text-align: right;
+}
+
+.slider-inner {
+  position: relative;
+  width: 1160px;
+  height: 486px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -111px;
+  margin-bottom: 75px;
+  overflow: hidden;
+}
+
+.slider-foto {
+  float: left;
+  width: 560px;
+}
+
+.slider-foto img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider-text {
+  float: right;
+  padding-top: 10px;
+  padding-right: 60px;
+  width: 505px;
+}
+
+.slider-number {
+  float: right;
+  height: 126px;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: "Gilroy ExtraBold";
+  font-size: 47px;
+  line-height: 56px;
+  letter-spacing: 0.7px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  margin-top: 70px;
+}
+
+.section-image {
+  width: 160px;
+  height: 160px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.popular-sections div:nth-child(3) {
+  height: 168px;
+}
+
+.logo-img {
+  width: 260px;
+  height: 100px;
+  overflow: hidden;
+}
